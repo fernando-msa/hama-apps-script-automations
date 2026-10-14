@@ -1,0 +1,15 @@
+# Apps Script / clasp
+.clasp.json
+.clasprc.json
+appsscript.local.json
+
+# Configuração local com valores reais (IDs de pastas, e-mails, fornecedores)
+CONFIG.local.gs
+*.local.gs
+fornecedores.config.gs
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

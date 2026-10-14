@@ -22,28 +22,28 @@
 // ============================================================
 
 var CONFIG = {
-  PASTA_RAIZ_ID: "1Lk1V-ytu9_EVz6KfZT4tGLz629CRdGB1",
+  PASTA_RAIZ_ID: "SEU_ID_DE_PASTA_NO_DRIVE",
   FUSO_HORARIO:  "GMT-3",
   MAX_THREADS:   50,
 
   SISTEMAS: {
     RASPTELLES: {
       MARCADOR:  "Chamados Rasptelles",
-      EMAIL:     "sistema@rasptelles.com.br",
+      EMAIL:     "sistema@exemplo-os.com.br",
       PASTA:     "Rasptelles",
       // Extrai número do padrão: OS202609693
       REGEX_NUM: /OS(\d+)/i
     },
     KSYS: {
       MARCADOR:  "Chamados Ksys",
-      EMAIL:     "ti.sede@igh.org.br",
+      EMAIL:     "ti@exemplo-portal.com.br",
       PASTA:     "Ksys",
       // Extrai número do padrão: # 121992
       REGEX_NUM: /#\s*(\d+)/
     },
     SMED: {
       MARCADOR:  "Chamados SMED",
-      EMAIL:     "mlsn.smpep@gmail.com",
+      EMAIL:     "chamados@exemplo-smed.com.br",
       PASTA:     "SMED",
       // Extrai número do padrão: Nº 57053
       REGEX_NUM: /N[°º]\s*(\d+)/i

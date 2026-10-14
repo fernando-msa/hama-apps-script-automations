@@ -7,19 +7,19 @@ var CONFIG = {
   SISTEMAS: {
     RASPTELLES: {
       MARCADOR:  "Chamados Rasptelles",
-      EMAIL:     "sistema@rasptelles.com.br",
+      EMAIL:     "sistema@exemplo-os.com.br",
       PASTA:     "Rasptelles",
       REGEX_NUM: /OS(\d+)/i
     },
     KSYS: {
       MARCADOR:  "Chamados Ksys",
-      EMAIL:     "ti.sede@igh.org.br",
+      EMAIL:     "ti@exemplo-portal.com.br",
       PASTA:     "Ksys",
       REGEX_NUM: /#\s*(\d+)/
     },
     SMED: {
       MARCADOR:  "Chamados SMED",
-      EMAIL:     "mlsn.smpep@gmail.com",
+      EMAIL:     "chamados@exemplo-smed.com.br",
       PASTA:     "SMED",
       REGEX_NUM: /N[°º]\s*(\d+)/i
     }
